@@ -1,6 +1,8 @@
 
-const coreModule = function(){
-    console.log('holaa222')
+const coreModule = function(app){
+    app.get('/home', function(req, res){
+        res.send('hola')
+    })
 }
 
 module.exports = coreModule
