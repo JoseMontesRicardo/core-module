@@ -2,6 +2,6 @@
 import Routes from './routes/index'
 
 const userManager = function(app){
-    return new Routes(app)
+    console.log(app)
 } 
 export default userManager
