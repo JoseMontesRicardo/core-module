@@ -4,13 +4,13 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _routes = require('routes');
+var _index = require('routes/index');
 
-var _routes2 = _interopRequireDefault(_routes);
+var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var coreModule = function coreModule(app) {
-    return new _routes2.default(app);
+    return new _index2.default(app);
 };
 exports.default = userManager;
