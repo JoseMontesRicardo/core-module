@@ -10,7 +10,7 @@ var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var coreModule = function coreModule(app) {
+var userManager = function userManager(app) {
     return new _index2.default(app);
 };
 exports.default = userManager;
