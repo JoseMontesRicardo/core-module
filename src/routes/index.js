@@ -10,14 +10,14 @@ class Routes {
     homeRoute(){
         console.log('holaa')
         this.home = {
-            route : this.app.router('/home')
+            route : this.app.route('/home')
         }
     }
 
     userRoute(){
         console.log('holaa2')        
         this.home = {
-            route : this.app.router('/home')
+            route : this.app.route('/home')
         }
     }
 

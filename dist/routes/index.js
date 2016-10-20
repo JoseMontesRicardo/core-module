@@ -28,7 +28,7 @@ var Routes = function () {
         value: function homeRoute() {
             console.log('holaa');
             this.home = {
-                route: this.app.router('/home')
+                route: this.app.route('/home')
             };
         }
     }, {
@@ -36,7 +36,7 @@ var Routes = function () {
         value: function userRoute() {
             console.log('holaa2');
             this.home = {
-                route: this.app.router('/home')
+                route: this.app.route('/home')
             };
         }
     }]);
