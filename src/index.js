@@ -1,7 +1,7 @@
 
+import Routes from 'routes'
+
 const coreModule = function(app){
-    app.get('/home', function(req, res){
-        res.send('hola3')
-    })
+    return new Routes(app)
 } 
-module.exports = coreModule
+export default userManager
