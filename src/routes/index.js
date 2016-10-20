@@ -2,8 +2,8 @@
 class Routes {
     constructor (app) {
       this.app = app
-      homeRoute()
-      userRoute()
+      this.homeRoute()
+      this.userRoute()
     }
 
 

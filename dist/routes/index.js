@@ -19,8 +19,8 @@ var Routes = function () {
         (0, _classCallCheck3.default)(this, Routes);
 
         this.app = app;
-        homeRoute();
-        userRoute();
+        this.homeRoute();
+        this.userRoute();
     }
 
     (0, _createClass3.default)(Routes, [{
